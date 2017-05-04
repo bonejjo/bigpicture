@@ -1,4 +1,4 @@
-<script language="javascript">
+﻿<script language="javascript">
   //php 페이지 자동 새로고침
   window.setTimeout('window.location.reload()',1000); //1초마다 리플리쉬 시킨다 1000이 1초가 된다.
 </script>
@@ -7,7 +7,7 @@
     //파일 경로
     $dir = "C:/Bitnami2/wampstack-5.6.30-2/apache2/htdocs/img/";
     //php mysql 연결
-    mysql_connect("localhost","root","yb1234");
+    mysql_connect("localhost","root","password");
     mysql_select_db("bigpicture");
 
     //한글 깨짐 현상 해결
